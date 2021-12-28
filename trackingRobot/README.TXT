@@ -3,31 +3,31 @@
 │  ├─core_cm3.h
 │  └─startup_stm32f10x_hd.s	//定义中断服务函数名等
 ├─HARDWARE
-│  ├─init					//初始化函数调用
+│  ├─init			//初始化函数调用
 │  │  ├─init.h
 │  │  └─init.c
-│  ├─motor					//电机驱动函数
+│  ├─motor			//电机驱动函数
 │  │  ├─motor.c
 │  │  └─motor.h
-│  ├─servo					//舵机控制板驱动函数
+│  ├─servo			//舵机控制板驱动函数
 │  │  ├─servo.c
 │  │  └─servo.h
-│  ├─timer					//定时器初始化
+│  ├─timer			//定时器初始化
 │  │  ├─timer.c
 │  │  └─timer.h
-│  └─tracker				//寻迹传感器初始化
+│  └─tracker			//寻迹传感器初始化
 │  │  ├─tracker.c
 │  │  └─tracker.h
 ├─OBJECTS
 │  ├─output.axf
 │  ├─output.build_log.htm
-│  ├─output.hex				//编译器链接成的可烧录的可执行十六进制文件
+│  ├─output.hex			//编译器链接成的可烧录的可执行十六进制文件
 │  ├─output.htm
 │  ├─output.lnp
 │  ├─output.sct
 │  ├─*.crf
-│  ├─*.d					//编译器产生的依赖文件
-│  └─*.o					//编译器产生的可执行对象文件
+│  ├─*.d			//编译器产生的依赖文件
+│  └─*.o			//编译器产生的可执行对象文件
 ├─STM32F10x_FWLib
 │  ├─inc
 │  │  ├─misc.h
@@ -37,17 +37,17 @@
 │  │  ...
 ├─SYSTEM
 │  ├─delay
-│  │  ├─delay.c				//延时函数
+│  │  ├─delay.c			//延时函数
 │  │  └─delay.h
 │  ├─sys
 │  │  ├─stm32f10x_it.c		//串口、定时器中断服务函数
 │  │  ├─stm32f10x_it.h
 │  │  ...
 │  └─usart
-│      ├─usart.c			//串口初始化
+│      ├─usart.c		//串口初始化
 │      └─usart.h
 └─USER
-    ├─main.c				//主程序
+    ├─main.c			//主程序
 	...
 
 比赛场地模拟一个植物苗圃，每支参赛队伍的起始区域摆放有10个模拟盆栽植物，盆栽分为绿色和红色两种。
@@ -57,7 +57,7 @@
    ┌───────────────────┐
    └───────────────────┘
    ┌─────────┬─────────┐
-   │         │   	   │
+   │         │         │
    │         │         │
    │         │         │
  ┌─┴─────────┴─────────┘
